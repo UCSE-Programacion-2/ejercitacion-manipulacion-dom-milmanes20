@@ -11,6 +11,7 @@ logo.setAttribute('src', 'https://www.youtube.com/img/desktop/yt_1200.png');
 const titulo = document.querySelector('h1');
 titulo.removeAttribute('class');
 //4- Chequear si el link a youtube posee o no el atributo href
-
+const linkYoutube = document.getElementById('link_youtube');
+console.log(linkYoutube.hasAttribute('href'));
 
 //5- Obtener el href del link a wikipedia y mostrarlo por consola
